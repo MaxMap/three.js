@@ -1,0 +1,47 @@
+<!--
+ * @Author: “MaxMap” 975106543@qq.com
+ * @Date: 2023-04-23 20:16:50
+ * @LastEditors: “MaxMap” 975106543@qq.com
+ * @LastEditTime: 2023-05-23 22:57:03
+ * @FilePath: \init01\index.html
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+[
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+  </style>
+  <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.151.3/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.151.3/examples/jsm/"
+        }
+      }
+    </script>
+</head>
+
+<body></body>
+
+<!-- 配置type="importmap",.html文件也能和项目开发环境一样方式引入threejs -->
+<!-- <script type="module" src="./model.js"> -->
+  <script type="module" src="./index-entry.model.js">
+
+</script>
+
+</html>
